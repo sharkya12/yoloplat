@@ -24,8 +24,6 @@ $string = array();
 
 while($node){
     array_push($string,$node->getSurface());
-   //$string = $node->getSurface();
-  // var_dump($node->getFeature());
    $node = $node->getNext();
 }
 
